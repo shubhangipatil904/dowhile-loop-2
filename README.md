@@ -1,1 +1,38 @@
 # dowhile-loop-2
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace CSharp_Shell
+{
+
+    public class Program 
+    {
+        public static void Main()
+        {
+			Console.WriteLine("Enter Number");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i=1;
+			
+				do
+				{ i++;
+					Console.WriteLine("Hello");
+				} while (i<=n);
+        	
+        }
+    }
+}
+Output:-
+Enter Number
+10
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
